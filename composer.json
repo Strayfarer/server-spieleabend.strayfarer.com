@@ -1,7 +1,7 @@
 {
-	"name" : "slothsoft/historischer-spieleabend.slothsoft.net",
+	"name" : "slothsoft/spieleabend.strayfarer.com",
 	"type" : "project",
-	"description" : "historischer-spieleabend.slothsoft.net",
+	"description" : "spieleabend.strayfarer.com",
 	"license" : "MIT",
 	"keywords" : [
 		"slothsoft",
@@ -34,7 +34,7 @@
 		"farah-asset" : "@php vendor/slothsoft/farah/scripts/farah-asset.php",
 		"farah-page" : "@php vendor/slothsoft/farah/scripts/farah-page.php"
 	},
-	"homepage" : "http://historischer-spieleabend.slothsoft.net",
+	"homepage" : "http://spieleabend.strayfarer.com",
 	"authors" : [{
 			"name" : "Daniel Schulz",
 			"email" : "info.slothsoft@gmail.com"
