@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns="http://schema.slothsoft.net/farah/sitemap" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary"
 	xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night">
 	<xsl:template match="/*">
-		<domain name="historischer-spieleabend.slothsoft.net" vendor="slothsoft" module="historischer-spieleabend.slothsoft.net" ref="pages/home" status-active="" status-public=""
+		<domain name="spieleabend.strayfarer.com" vendor="slothsoft" module="spieleabend.strayfarer.com" ref="pages/home" status-active="" status-public=""
 			sfd:languages="de-de" version="1.1">
 
 			<page name="sitemap" ref="//slothsoft@farah/sitemap-generator" status-active="" />
