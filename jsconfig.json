@@ -7,7 +7,7 @@
       "/slothsoft@schema/*": [
         "./vendor/slothsoft/schema/assets/*"
       ],
-      "/slothsoft@spieleabend.strayfarer.com/*": [
+      "/strayfarer@spieleabend.strayfarer.com/*": [
         "./assets/*"
       ]
     }
