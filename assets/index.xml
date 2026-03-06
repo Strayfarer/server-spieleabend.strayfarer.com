@@ -114,14 +114,14 @@
     </platforms>
 
     <present>
+    </present>
+
+    <past>
         <event track="STR-Sim" theme="Zoo Tycoon" type="series" moderator="Kadda" gfx="zoo.jpg" date="2026-02-05" time="19:00">
             <game name="Zoo Tycoon" released="2001" by="Blue Fang Games" on="Windows" country="US" />
             <game name="Zoo Tycoon 2" released="2004" by="Blue Fang Games" on="Windows" country="US" />
             <game name="Planet Zoo" released="2019" by="Frontier Developments" on="Windows" country="GB" />
         </event>
-    </present>
-
-    <past>
         <event track="RPG-West" theme="Open-World Dungeon Crawlers" type="genre" gfx="bard.webp" moderator="Daniel" date="2026-01-23" time="19:00">
             <game name="Ambermoon" released="1993" by="Thalion Software" on="Amiga" country="DE" manual="Ambermoon" />
             <game name="The Elder Scrolls II: Daggerfall" released="1996" by="Bethesda Softworks" on="MS-DOS" country="US" />
