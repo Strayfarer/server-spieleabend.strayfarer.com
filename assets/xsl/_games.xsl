@@ -4,7 +4,7 @@
     xmlns:lio="http://slothsoft.net" xmlns:func="http://exslt.org/functions" xmlns:set="http://exslt.org/sets" extension-element-prefixes="func set"
     xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night">
 
-    <xsl:include href="farah://slothsoft@spieleabend.strayfarer.com/xsl/functions" />
+    <xsl:include href="farah://strayfarer@spieleabend.strayfarer.com/xsl/functions" />
 
     <xsl:variable name="eventId" select="//sfs:page[@current]/@name" />
     <xsl:variable name="event" select="id($eventId)" />

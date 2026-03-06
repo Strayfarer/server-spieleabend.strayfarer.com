@@ -3,7 +3,7 @@
     xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl" xmlns:lio="http://slothsoft.net"
     xmlns:func="http://exslt.org/functions" extension-element-prefixes="func" xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night">
 
-    <xsl:include href="farah://slothsoft@spieleabend.strayfarer.com/xsl/functions" />
+    <xsl:include href="farah://strayfarer@spieleabend.strayfarer.com/xsl/functions" />
 
     <xsl:template match="/*">
         <html>

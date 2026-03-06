@@ -2,13 +2,13 @@
   "compilerOptions": {
     "paths": {
       "/slothsoft@farah/*": [
-        "vendor/slothsoft/farah/assets/*"
-      ],
-      "/slothsoft@spieleabend.strayfarer.com/*": [
-        "assets/*"
+        "./vendor/slothsoft/farah/assets/*"
       ],
       "/slothsoft@schema/*": [
-        "vendor/slothsoft/schema/assets/*"
+        "./vendor/slothsoft/schema/assets/*"
+      ],
+      "/slothsoft@spieleabend.strayfarer.com/*": [
+        "./assets/*"
       ]
     }
   }

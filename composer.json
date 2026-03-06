@@ -1,10 +1,10 @@
 {
-	"name" : "slothsoft/spieleabend.strayfarer.com",
+	"name" : "strayfarer/spieleabend.strayfarer.com",
 	"type" : "project",
 	"description" : "spieleabend.strayfarer.com",
 	"license" : "MIT",
 	"keywords" : [
-		"slothsoft",
+		"strayfarer",
 		"farah-module",
 		"farah-server"
 	],
@@ -13,7 +13,7 @@
 			"src/bootstrap.php"
 		],
 		"psr-4" : {
-			"Slothsoft\\Server\\HistorischerSpieleabend\\" : "src"
+			"Strayfarer\\Server\\Spieleabend\\" : "src"
 		}
 	},
 	"require" : {
@@ -27,14 +27,14 @@
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"Slothsoft\\Server\\HistorischerSpieleabend\\Tests\\" : "tests"
+			"Strayfarer\\Server\\Spieleabend\\Tests\\" : "tests"
 		}
 	},
 	"scripts" : {
 		"farah-asset" : "@php vendor/slothsoft/farah/scripts/farah-asset.php",
 		"farah-page" : "@php vendor/slothsoft/farah/scripts/farah-page.php"
 	},
-	"homepage" : "http://spieleabend.strayfarer.com",
+	"homepage" : "https://spieleabend.strayfarer.com",
 	"authors" : [{
 			"name" : "Daniel Schulz",
 			"email" : "info.slothsoft@gmail.com"

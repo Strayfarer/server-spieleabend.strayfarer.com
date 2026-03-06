@@ -5,14 +5,14 @@
 
     <xsl:include href="farah://slothsoft@farah/xsl/dictionary" />
 
-    <xsl:variable name="GFX_BASE" select="'/slothsoft@spieleabend.strayfarer.com/gfx/'" />
+    <xsl:variable name="GFX_BASE" select="'/strayfarer@spieleabend.strayfarer.com/gfx/'" />
 
     <func:function name="lio:gfx-url">
         <xsl:param name="gfx" />
         <func:result select="concat($GFX_BASE, $gfx)" />
     </func:function>
 
-    <xsl:variable name="MANUAL_BASE" select="'/slothsoft@spieleabend.strayfarer.com/manuals/'" />
+    <xsl:variable name="MANUAL_BASE" select="'/strayfarer@spieleabend.strayfarer.com/manuals/'" />
 
     <func:function name="lio:manual-url">
         <xsl:param name="manual" />

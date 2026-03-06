@@ -1,6 +1,6 @@
 <?php
 declare(strict_types = 1);
-namespace Slothsoft\Server\HistorischerSpieleabend;
+namespace Strayfarer\Server\Spieleabend;
 
 use Slothsoft\Core\ServerEnvironment;
 use Slothsoft\Core\DBMS\Authority;
@@ -8,7 +8,6 @@ use Slothsoft\Core\DBMS\Client;
 use Slothsoft\Farah\Dictionary;
 use Slothsoft\Farah\Kernel;
 use Slothsoft\Farah\Module\Module;
-use Slothsoft\Farah\Module\Executable\ResultBuilderStrategy\TransformationResultBuilder;
 $root = dirname(__DIR__);
 
 ServerEnvironment::setRootDirectory($root);
@@ -16,16 +15,12 @@ ServerEnvironment::setCacheDirectory($root . DIRECTORY_SEPARATOR . 'cache');
 ServerEnvironment::setLogDirectory($root . DIRECTORY_SEPARATOR . 'log');
 ServerEnvironment::setDataDirectory($root . DIRECTORY_SEPARATOR . 'data');
 
-Kernel::setCurrentSitemap('farah://slothsoft@spieleabend.strayfarer.com/sitemap');
+Kernel::setCurrentSitemap('farah://strayfarer@spieleabend.strayfarer.com/sitemap');
 Kernel::setTrackingEnabled(false);
 Dictionary::setSupportedLanguages('de-de');
 
-Module::registerWithXmlManifestAndDefaultAssets('slothsoft@spieleabend.strayfarer.com', $root . DIRECTORY_SEPARATOR . 'assets');
+Module::registerWithXmlManifestAndDefaultAssets('strayfarer@spieleabend.strayfarer.com', $root . DIRECTORY_SEPARATOR . 'assets');
 
 if ($file = getenv('MYSQL_ROOT_PASSWORD_FILE') and $password = file_get_contents($file)) {
     Client::setDefaultAuthority(new Authority('mysql', 'root', $password));
 }
-
-date_default_timezone_set('Europe/Berlin');
-
-TransformationResultBuilder::$translateDictionaryAlpha = false;

@@ -20,7 +20,7 @@ pipeline {
 							env.DOCKER_WORKDIR = callShellStdout "${dockerTool} image inspect faulo/farah:${PHP_VERSION} --format '{{.Config.WorkingDir}}'"
 						}
 						stage ('Run tests') {
-							withDockerContainer(image: "faulo/farah:${PHP_VERSION}", toolName: 'Default', args: '-v /var/vhosts/historischer-spieleabend.slothsoft.net:$WORKSPACE/data') {
+							withDockerContainer(image: "faulo/farah:${PHP_VERSION}", toolName: 'Default', args: '-v /var/vhosts/spieleabend.strayfarer.com:$WORKSPACE/data') {
 								callShell 'composer install --no-interaction --optimize-autoloader --classmap-authoritative'
 								callShell 'composer exec server-clean cache logs'
 

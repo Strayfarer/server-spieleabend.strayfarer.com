@@ -1,6 +1,6 @@
 <?php
 declare(strict_types = 1);
-namespace Slothsoft\Server\HistorischerSpieleabend\Assets;
+namespace Strayfarer\Server\Spieleabend\Assets;
 
 use Slothsoft\Farah\FarahUrl\FarahUrlArguments;
 use Slothsoft\Farah\Module\Module;

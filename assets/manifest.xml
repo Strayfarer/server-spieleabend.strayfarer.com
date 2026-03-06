@@ -76,11 +76,11 @@
             <link-stylesheet ref="/css/style" />
             <link-dictionary ref="/dictionary" />
         </fragment>
-        <custom-asset name="event" executable-builder="Slothsoft\Server\HistorischerSpieleabend\Assets\EventAPI"
+        <custom-asset name="event" executable-builder="Strayfarer\Server\Spieleabend\Assets\EventAPI"
             parameter-filter="Slothsoft\Farah\Module\Asset\ParameterFilterStrategy\AllowAllParameterFilter" />
-        <custom-asset name="games" executable-builder="Slothsoft\Server\HistorischerSpieleabend\Assets\GamesList"
+        <custom-asset name="games" executable-builder="Strayfarer\Server\Spieleabend\Assets\GamesList"
             parameter-filter="Slothsoft\Farah\Module\Asset\ParameterFilterStrategy\AllowAllParameterFilter" />
-        <custom-asset name="ids" executable-builder="Slothsoft\Server\HistorischerSpieleabend\Assets\EventIDs"
+        <custom-asset name="ids" executable-builder="Strayfarer\Server\Spieleabend\Assets\EventIDs"
             parameter-filter="Slothsoft\Farah\Module\Asset\ParameterFilterStrategy\DenyAllParameterFilter" />
     </fragment>
 </assets>

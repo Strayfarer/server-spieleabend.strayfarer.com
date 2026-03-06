@@ -1,6 +1,6 @@
 <?php
 declare(strict_types = 1);
-namespace Slothsoft\Server\HistorischerSpieleabend\Tests;
+namespace Strayfarer\Server\Spieleabend\Tests;
 
 use Slothsoft\FarahTesting\Module\AbstractXmlManifestTest;
 

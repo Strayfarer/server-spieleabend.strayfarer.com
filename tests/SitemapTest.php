@@ -1,6 +1,6 @@
 <?php
 declare(strict_types = 1);
-namespace Slothsoft\Server\HistorischerSpieleabend\Tests;
+namespace Strayfarer\Server\Spieleabend\Tests;
 
 use Slothsoft\Farah\Configuration\AssetConfigurationField;
 use Slothsoft\FarahTesting\Module\AbstractSitemapTest;
@@ -9,6 +9,6 @@ use Slothsoft\Farah\Module\Asset\AssetInterface;
 class SitemapTest extends AbstractSitemapTest {
 
     protected static function loadSitesAsset(): AssetInterface {
-        return (new AssetConfigurationField('farah://slothsoft@historischer-spieleabend.slothsoft.net/sitemap'))->getValue();
+        return (new AssetConfigurationField('farah://strayfarer@spieleabend.strayfarer.com/sitemap'))->getValue();
     }
 }
