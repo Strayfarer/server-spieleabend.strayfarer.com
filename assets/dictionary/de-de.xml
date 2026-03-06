@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sfd:dictionary xmlns="http://www.w3.org/1999/xhtml" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" version="1.0">
-    <sfd:text xml:id="title">Historischer Spieleabend im GIL</sfd:text>
+    <sfd:text xml:id="title">Strayfarer Spieleabend</sfd:text>
 
     <sfd:text xml:id="Monday">Mo</sfd:text>
     <sfd:text xml:id="Tuesday">Di</sfd:text>
