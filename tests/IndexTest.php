@@ -1,6 +1,6 @@
 <?php
 declare(strict_types = 1);
-namespace Strayfarer\Server\Spieleabend\Tests;
+namespace Strayfarer\Server\Spieleabend;
 
 use Slothsoft\Farah\Http\MessageFactory;
 use Slothsoft\FarahTesting\Module\AbstractTestCase;
