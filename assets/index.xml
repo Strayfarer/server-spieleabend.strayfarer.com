@@ -1597,5 +1597,32 @@
             <game name="Star Wars: The Old Republic" released="2011" by="BioWare Austin" on="Windows" country="CA" />
             <game name="Second Life" released="2003" by="Linden Lab" on="Windows" country="US" />
         </event>
+        <event track="MIS-Socken" theme="Daniel's Fav 25" type="special">
+            <game name="Die Siedler" released="1993" by="Blue Byte" on="Amiga" country="DE" manual="Die Siedler (1993, BlueByte)" />
+            <game name="Ambermoon" released="1993" by="Thalion Software" on="Amiga" country="DE" manual="Ambermoon" />
+            <game name="Tales of Eternia" released="2000" by="Wolf Team" on="PS1" country="JP" />
+            <game name="Super Mario 64" released="1996" by="Nintendo EAD" on="N64" country="JP" />
+            <game name="Might and Magic VI: The Mandate of Heaven" released="1996" by="New World Computing" on="Windows" country="US" manual="Might and Magic VI" />
+            <game name="Beat Saber" released="2018" by="Hyperbolic Magnetism" on="Windows" country="CZ" />
+            <game name="Journey" released="2012" by="thatgamecompany" on="PS3" country="US" />
+            <game name="Animal Well" released="2024" by="Billy Basso" on="Windows" country="US" />
+            <game name="Blue Prince" released="2025" by="Dogubomb" on="Windows" country="US" />
+            <game name="Kingdom Two Crowns" released="2018" by="Noio" on="Windows" country="NE" />
+            <game name="Baldur's Gate 3" released="2023" by="Larian Studios" country="BE" on="Windows" />
+            <game name="Banjo-Kazooie" released="1998" by="Rare" on="N64" country="GB" />
+            <game name="Final Fantasy IX" released="2000" by="Square" on="PS1" country="JP" />
+            <game name="Celeste" released="2018" by="Matt Makes Games" on="Windows" country="CA" />
+            <game name="Super Mario World" released="1990" by="Nintendo EAD" on="SNES" country="JP" />
+            <game name="Elden Ring" released="2022" by="FromSoftware" on="Windows" country="JP" />
+            <game name="The Legend of Zelda: Breath of the Wild" released="2017" by="Nintendo EPD" on="Switch" country="JP" />
+            <game name="Lemmings 2: The Tribes" released="1993" by="DMA Design" on="Amiga" country="GB" />
+            <game name="Mount &amp; Blade II: Bannerlord" released="2022" by="TaleWorlds Entertainment" on="Windows" country="TR" />
+            <game name="Phoenix Wright: Ace Attorney" released="2001" by="Capcom Production Studio 4" on="NDS" country="JP" />
+            <game name="Pokémon Goldene und Silberne Edition" released="1999" by="Game Freak" on="GBC" country="JP" />
+            <game name="Portal 2" released="2011" by="Valve Corporation" on="Windows" country="US" />
+            <game name="XCOM 2" released="2016" by="Firaxis Games" on="Windows" country="US" />
+            <game name="Grand Theft Auto: San Andreas" released="2004" by="Rockstar North" on="Windows" country="GB" />
+            <game name="Wizardry 8" released="2001" by="Sir-Tech Canada" on="Windows" country="CA" />
+        </event>
     </unsorted>
 </index>
