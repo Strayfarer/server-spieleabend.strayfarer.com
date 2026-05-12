@@ -1,43 +1,44 @@
 {
-	"name" : "strayfarer/spieleabend.strayfarer.com",
-	"type" : "project",
-	"description" : "spieleabend.strayfarer.com",
-	"license" : "MIT",
-	"keywords" : [
-		"strayfarer",
-		"farah-module",
-		"farah-server"
-	],
-	"autoload" : {
-		"files" : [
-			"src/bootstrap.php"
-		],
-		"psr-4" : {
-			"Strayfarer\\Server\\Spieleabend\\" : "src"
-		}
-	},
-	"require" : {
-		"slothsoft/core" : "^1.14.19",
-		"slothsoft/farah" : "^1.27.1",
-		"slothsoft/schema" : "^1.4.3"
-	},
-	"require-dev" : {
-		"phpunit/phpunit" : "~9.6.23",
-		"slothsoft/farah-testing" : "^1.3.1"
-	},
-	"autoload-dev" : {
-		"psr-4" : {
-			"Strayfarer\\Server\\Spieleabend\\" : "tests"
-		}
-	},
-	"scripts" : {
-		"farah-asset" : "@php vendor/slothsoft/farah/scripts/farah-asset.php",
-		"farah-page" : "@php vendor/slothsoft/farah/scripts/farah-page.php"
-	},
-	"homepage" : "https://spieleabend.strayfarer.com",
-	"authors" : [{
-			"name" : "Daniel Schulz",
-			"email" : "info.slothsoft@gmail.com"
-		}
-	]
+    "name": "strayfarer/spieleabend.strayfarer.com",
+    "type": "project",
+    "description": "spieleabend.strayfarer.com",
+    "license": "MIT",
+    "keywords": [
+        "strayfarer",
+        "farah-module",
+        "farah-server"
+    ],
+    "autoload": {
+        "files": [
+            "src/bootstrap.php"
+        ],
+        "psr-4": {
+            "Strayfarer\\Server\\Spieleabend\\": "src"
+        }
+    },
+    "require": {
+        "slothsoft/core": "^1.14.19",
+        "slothsoft/farah": "^1.27.1",
+        "slothsoft/schema": "^1.4.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.6.23",
+        "slothsoft/farah-testing": "^1.3.1"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Strayfarer\\Server\\Spieleabend\\": "tests"
+        }
+    },
+    "scripts": {
+        "farah-asset": "@php vendor/slothsoft/farah/scripts/farah-asset.php",
+        "farah-page": "@php vendor/slothsoft/farah/scripts/farah-page.php"
+    },
+    "homepage": "https://spieleabend.strayfarer.com",
+    "authors": [
+        {
+            "name": "Daniel Schulz",
+            "email": "info.slothsoft@gmail.com"
+        }
+    ]
 }
