@@ -1,22 +1,23 @@
 <?php
 declare(strict_types = 1);
+
 namespace Strayfarer\Server\Spieleabend\Assets;
 
-use Slothsoft\Core\DOMHelper;
-use Slothsoft\Core\Storage;
+use DOMDocument;
+use DOMElement;
 use Slothsoft\Core\Calendar\Seconds;
+use Slothsoft\Core\DOMHelper;
 use Slothsoft\Core\IO\Writable\Delegates\DOMWriterFromElementDelegate;
+use Slothsoft\Core\Storage;
 use Slothsoft\Farah\FarahUrl\FarahUrlArguments;
 use Slothsoft\Farah\Module\Asset\AssetInterface;
 use Slothsoft\Farah\Module\Asset\ExecutableBuilderStrategy\ExecutableBuilderStrategyInterface;
 use Slothsoft\Farah\Module\Executable\ExecutableStrategies;
 use Slothsoft\Farah\Module\Executable\ResultBuilderStrategy\DOMWriterResultBuilder;
-use DOMDocument;
-use DOMElement;
 
 final class GamesList implements ExecutableBuilderStrategyInterface {
     
-    private const NS = 'http://schema.slothsoft.net/schema/historical-games-night';
+    private const string NS = 'http://schema.slothsoft.net/schema/historical-games-night';
     
     private array $games = [
         'Dune II' => 'Dune II: The Building of a Dynasty',
@@ -92,7 +93,6 @@ final class GamesList implements ExecutableBuilderStrategyInterface {
                             if ($game) {
                                 $done->appendChild($target->importNode($game, true));
                             } else {
-                                
                                 $dev = $xpath->evaluate('normalize-space(td[3])', $row);
                                 $platform = $xpath->evaluate('normalize-space(td[last()]/preceding-sibling::td[1])', $row);
                                 

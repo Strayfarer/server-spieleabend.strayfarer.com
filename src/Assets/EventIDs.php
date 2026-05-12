@@ -1,7 +1,10 @@
 <?php
 declare(strict_types = 1);
+
 namespace Strayfarer\Server\Spieleabend\Assets;
 
+use DOMDocument;
+use DOMElement;
 use Slothsoft\Core\DOMHelper;
 use Slothsoft\Core\IO\Writable\Delegates\DOMWriterFromElementDelegate;
 use Slothsoft\Farah\FarahUrl\FarahUrlArguments;
@@ -9,8 +12,6 @@ use Slothsoft\Farah\Module\Asset\AssetInterface;
 use Slothsoft\Farah\Module\Asset\ExecutableBuilderStrategy\ExecutableBuilderStrategyInterface;
 use Slothsoft\Farah\Module\Executable\ExecutableStrategies;
 use Slothsoft\Farah\Module\Executable\ResultBuilderStrategy\DOMWriterResultBuilder;
-use DOMDocument;
-use DOMElement;
 
 class EventIDs implements ExecutableBuilderStrategyInterface {
     
@@ -34,7 +35,7 @@ class EventIDs implements ExecutableBuilderStrategyInterface {
                     $key = $subtrackNode->getAttribute('id');
                     $id = sprintf('%s%d', $trackId, $i);
                     $subtracks[$key] = $id;
-                    $i ++;
+                    $i++;
                 }
             }
             $events = [];
@@ -55,7 +56,7 @@ class EventIDs implements ExecutableBuilderStrategyInterface {
                 
                 $events[$track][$name] = isset($events[$track][$name]) ? min($events[$track][$name], $timestamp) : $timestamp;
                 
-                $i ++;
+                $i++;
             }
             
             ksort($events);
@@ -72,7 +73,7 @@ class EventIDs implements ExecutableBuilderStrategyInterface {
                     $idNode->setAttribute('name', (string) $name);
                     $idNode->textContent = sprintf('%s%02d', $subtrackId, $i);
                     $root->appendChild($idNode);
-                    $i ++;
+                    $i++;
                 }
             }
             return $root;

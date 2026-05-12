@@ -17,6 +17,7 @@
         }
     },
     "require": {
+        "ext-dom": "*",
         "slothsoft/core": "^1.14.19",
         "slothsoft/farah": "^1.27.1",
         "slothsoft/schema": "^1.4.3"
