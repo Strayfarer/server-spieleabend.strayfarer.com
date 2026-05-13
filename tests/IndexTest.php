@@ -25,4 +25,3 @@ final class IndexTest extends AbstractTestCase {
         $this->assertTrue($doc->loadXML($data));
     }
 }
-
