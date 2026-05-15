@@ -186,7 +186,8 @@
             <game name="Galatea" released="2004" by="Emily Short" on="Windows" country="GB" href="https://ifdb.org/viewgame?id=urxrv27t7qtu52lb" />
             <game name="Façade" released="2005" by="Procedural Arts" on="Windows" country="US" />
             <game name="AI Dungeon" released="2020" by="Latitude" on="Browser" country="US" href="https://play.aidungeon.com/" />
-            <read href="https://openlibrary.org/books/OL22112222M/Hamlet_on_the_holodeck" name="Hamlet on the Holodeck: The Future of Narrative in Cyberspace" released="1997" by="Janet Horowitz Murray" />
+            <read href="https://openlibrary.org/books/OL22112222M/Hamlet_on_the_holodeck" name="Hamlet on the Holodeck: The Future of Narrative in Cyberspace" released="1997"
+                  by="Janet Horowitz Murray" />
         </event>
         <event track="STR-Sim" theme="2000 Years, Simulated: Antiquity and Middle Ages" type="series" gfx="rome.jpg" moderator="Gregor" date="2025-09-11" time="19:00">
             <game name="Romance of the Three Kingdoms" released="1988" by="Koei" on="NES" country="JP" />
@@ -224,7 +225,8 @@
         <event track="BIZ-Country" theme="Bundesspiele" type="genre" gfx="skyworker.jpg" moderator="Daniel" date="2025-07-17" time="19:00">
             <game name="Das Erbe" released="1991" by="COMAD" on="Amiga" country="DE" href="https://www.mobygames.com/game/12352/das-erbe/" wanted="Umweltbundesamt" />
             <game name="Erbe 2: Das Schmutzige Erbe" released="1993" by="COMAD" on="Amiga" country="DE" href="https://amiga.abime.net/games/view/erbe-2-das-schmutzige-erbe" wanted="Umweltbundesamt" />
-            <game name="Energie-Manager" released="1993" by="Rauser Advertainment" on="Amiga" country="DE" href="https://www.mobygames.com/game/12353/energie-manager/" wanted="Bundesministerium für Wirtschaft" />
+            <game name="Energie-Manager" released="1993" by="Rauser Advertainment" on="Amiga" country="DE" href="https://www.mobygames.com/game/12353/energie-manager/"
+                  wanted="Bundesministerium für Wirtschaft" />
             <game name="Skyworker" released="1994" by="The Art Department" on="Amiga" country="DE" href="https://www.mobygames.com/game/28825/skyworker/" wanted="Bundesministerium für Wirtschaft" />
             <game name="Der Rasende Reporter" released="1994" by="Silver Style" on="Amiga" country="DE" href="https://amiga.abime.net/games/view/der-rasende-reporter" wanted="Bundespresseamt" />
             <read href="https://www.umweltbundesamt.de/1991?parent=81789" name="Das UBA › Unsere Geschichte › 1991" released="2020" by="Umweltbundesamt" />
@@ -662,7 +664,8 @@
             <game name="The Hobbit" released="1982" by="Beam Software" on="MS-DOS" country="AU" />
             <game name="J.R.R. Tolkien's The Lord of the Rings, Vol. I" released="1990" by="Interplay Productions" on="MS-DOS" country="US" />
             <game name="The Lord of the Rings: The Fellowship of the Ring" released="2002" by="Surreal Software" on="PS2" country="US" />
-            <game name="The Lord of the Rings: The Battle for Middle-earth II: The Rise of the Witch-king: The Edain Mod" released="2006" by="EA Los Angeles" on="Windows" country="US" wanted="Gregor" />
+            <game name="The Lord of the Rings: The Battle for Middle-earth II: The Rise of the Witch-king: The Edain Mod" released="2006" by="EA Los Angeles" on="Windows" country="US"
+                  wanted="Gregor" />
             <game name="Middle-earth: Shadow of Mordor" released="2014" by="Monolith Productions" on="Windows" country="US" wanted="MICHAEL!" />
         </event>
         <event track="MIS-Artsy" theme="Adult Humor" type="genre" moderator="MICHAEL!" gfx="conker.png" date="2022-09-01" time="19:00">
@@ -841,7 +844,8 @@
         </event>
         <event track="MIS-Terrible" theme="The Worst Games of All Time" type="special" gfx="superman.gif" date="2021-09-02" time="19:00">
             <game name="E.T. the Extra-Terrestrial" released="1982" by="Atari, Inc." on="Atari2600" country="US" href="https://www.retrogames.cz/play_083-Atari2600.php" />
-            <game name="Zelda's Adventure" released="1995" by="Viridis Corporation" on="CD-i" country="US" href="https://www.vizzed.com/playonlinegames/play.php?id=74599&amp;systemEmulator=MAMEMESS" />
+            <game name="Zelda's Adventure" released="1995" by="Viridis Corporation" on="CD-i" country="US"
+                  href="https://www.vizzed.com/playonlinegames/play.php?id=74599&amp;systemEmulator=MAMEMESS" />
             <game name="Jurassic Park: Trespasser" released="1998" by="DreamWorks Interactive" on="Windows" country="US" />
             <game name="Superman 64" released="1999" by="Titus Interactive" on="N64" country="FR" />
             <game name="Unlimited Saga" released="2002" by="Square" on="PS2" country="JP" />
@@ -970,7 +974,8 @@
         </event>
         <event track="LAN-MUD" theme="Stardew Valley" type="longplay" gfx="HarvestMoon.png" date="2020-12-13" time="10:00">
             <game name="Stardew Valley" released="2016" by="ConcernedApe" on="Windows" version="1.4" country="US" />
-            <read href="https://docs.google.com/spreadsheets/d/1d0mxbU2_uLyvpFSTAxBcbJ3kfmD5p2SjIecoL2DVLf0/edit?usp=sharing" name="Historische LAN-Party: Stardew Valley" released="2020" by="Daniel Schulz" />
+            <read href="https://docs.google.com/spreadsheets/d/1d0mxbU2_uLyvpFSTAxBcbJ3kfmD5p2SjIecoL2DVLf0/edit?usp=sharing" name="Historische LAN-Party: Stardew Valley" released="2020"
+                  by="Daniel Schulz" />
         </event>
         <event track="RPG-West" theme="CRPGs - „Westliche“ Rollenspiele " type="genre" gfx="fallout.png" date="2020-12-03" time="19:00">
             <req theme="Open-World Dungeon Crawlers" />
@@ -1048,8 +1053,10 @@
         <event track="FPS-SP" theme="„Killerspiele“" type="genre" gfx="Postal.png" date="2020-07-16" time="19:00">
             <game name="Postal 2" released="2003" by="Running with Scissors" on="Windows" country="US" />
             <game name="Manhunt 2" released="2007" by="Rockstar London" on="Wii" country="GB" />
-            <game name="Grand Theft Auto IV" released="2008" by="Rockstar North" on="PS3" country="GB" href="https://en.wikipedia.org/wiki/Controversies_surrounding_Grand_Theft_Auto_IV" wanted="Lena" />
-            <game name="Call of Duty: Modern Warfare 2" released="2009" by="Infinity Ward" on="Windows" country="US" href="https://en.wikipedia.org/wiki/Controversies_surrounding_Call_of_Duty:_Modern_Warfare_2" wanted="MICHAEL!" />
+            <game name="Grand Theft Auto IV" released="2008" by="Rockstar North" on="PS3" country="GB" href="https://en.wikipedia.org/wiki/Controversies_surrounding_Grand_Theft_Auto_IV"
+                  wanted="Lena" />
+            <game name="Call of Duty: Modern Warfare 2" released="2009" by="Infinity Ward" on="Windows" country="US"
+                  href="https://en.wikipedia.org/wiki/Controversies_surrounding_Call_of_Duty:_Modern_Warfare_2" wanted="MICHAEL!" />
             <game name="Hatred" released="2015" by="Destructive Creations" on="Windows" country="US" />
         </event>
         <event track="RPG-East" theme="Traditional JRPGs" type="genre" gfx="dragonquest.png" date="2020-07-02" time="19:00">
@@ -1071,14 +1078,16 @@
         </event>
         <event track="LAN-MMO" theme="The Lord of the Rings Online" type="longplay" gfx="LOTRO.png" date="2020-05-21" time="19:00">
             <game name="The Lord of the Rings Online" released="2007" by="Turbine Entertainment Software" on="Windows" country="US" href="https://www.lotro.com/en/game/download" />
-            <read href="https://docs.google.com/spreadsheets/d/1fH0mMZe1jcMr_Kk4OWPBYxhmLwwqC7Uk8BgHE9Gx5LA/edit?usp=sharing" name="Historische LAN-Party: The Lord of the Rings Online" released="2020" by="Daniel Schulz" />
+            <read href="https://docs.google.com/spreadsheets/d/1fH0mMZe1jcMr_Kk4OWPBYxhmLwwqC7Uk8BgHE9Gx5LA/edit?usp=sharing" name="Historische LAN-Party: The Lord of the Rings Online" released="2020"
+                  by="Daniel Schulz" />
         </event>
         <event track="JNR-2D" theme="Climbing Games" type="genre" gfx="pphammer.png" date="2020-05-07" time="19:00">
             <game name="Space Panic" released="1980" by="Universal" on="Arcade" country="JP" />
             <game name="Donkey Kong" released="1981" by="Nintendo R&amp;D1" on="Arcade" country="JP" />
             <game name="Lode Runner" released="1983" by="Doug Smith" on="NES" country="US" />
             <game name="P. P. Hammer and his Pneumatic Weapon" released="1991" by="Traveling Bits" on="Amiga" country="DE" />
-            <read href="https://archive.org/stream/Electronic_Games_Volume_01_Number_11_1983-01_Reese_Communications_US#page/n47/mode/2up" name="The Player's Guide to Climbing Games" by="Electronic Games" released="1983" />
+            <read href="https://archive.org/stream/Electronic_Games_Volume_01_Number_11_1983-01_Reese_Communications_US#page/n47/mode/2up" name="The Player's Guide to Climbing Games"
+                  by="Electronic Games" released="1983" />
         </event>
         <event track="MIS-Licenses" theme="Lernspiele" type="genre" gfx="Löwenzahn.png" date="2020-02-27" time="19:00">
             <game name="Opera Fatal" released="1996" by="Ruske &amp; Pühretmaier Design und Multimedia GmbH" on="Windows" country="DE" />
@@ -1190,7 +1199,8 @@
         </event>
         <event track="LAN-MMO" theme="World of Warcraft" type="longplay" gfx="wow.jpg" date="2019-09-01" time="14:00">
             <game name="World of Warcraft" released="2004" by="Blizzard Entertainment" on="Windows" version="1.12.1" country="US" />
-            <read href="https://docs.google.com/spreadsheets/d/1PPB4FufcwUY8eRiK_MIC1mFsWSt7jU8oACdyz6wYA7Y/edit?usp=sharing" name="Historische LAN-Party: World of Warcraft" released="2019" by="Daniel Schulz" />
+            <read href="https://docs.google.com/spreadsheets/d/1PPB4FufcwUY8eRiK_MIC1mFsWSt7jU8oACdyz6wYA7Y/edit?usp=sharing" name="Historische LAN-Party: World of Warcraft" released="2019"
+                  by="Daniel Schulz" />
         </event>
         <event track="STR-Misc" theme="Rock Beats Laser Real-Time Strategy Games" type="genre" gfx="warcraft.gif" date="2019-08-29" time="19:00">
             <game name="Warcraft: Orcs &amp; Humans" released="1994" by="Blizzard Entertainment" on="MS-DOS" country="US" manual="WarCraft-Orcs-Humans_Manual_DOS_EN" />
@@ -1560,8 +1570,10 @@
             <game name="Metal Gear Solid V: The Phantom Pain" released="2015" by="Kojima Productions" on="PS4" country="JP" />
             <game name="Wasteland" released="1988" by="Interplay Productions" on="MS-DOS" country="US" />
             <game name="Phantasmagoria" released="1995" by="Sierra On-Line" country="US" on="MS-DOS" />
-            <game name="Dunkle Schatten" released="1994" by="Freelance Development" on="MS-DOS" country="DE" href="https://www.mobygames.com/game/6463/dunkle-schatten/" wanted="Bundesministerium des Innern" />
-            <game name="Dunkle Schatten 2: Im Netzwerk gefangen" released="1996" by="DigiTales" on="MS-DOS" country="DE" href="https://www.mobygames.com/game/6464/dunkle-schatten-2-im-netzwerk-gefangen/" wanted="Bundesministerium des Innern" />
+            <game name="Dunkle Schatten" released="1994" by="Freelance Development" on="MS-DOS" country="DE" href="https://www.mobygames.com/game/6463/dunkle-schatten/"
+                  wanted="Bundesministerium des Innern" />
+            <game name="Dunkle Schatten 2: Im Netzwerk gefangen" released="1996" by="DigiTales" on="MS-DOS" country="DE"
+                  href="https://www.mobygames.com/game/6464/dunkle-schatten-2-im-netzwerk-gefangen/" wanted="Bundesministerium des Innern" />
         </event>
         <event track="MIS-Socken" theme="JRPGs" type="special">
             <game name="Baten Kaitos: Eternal Wings and the Lost Ocean" released="2003" by="Monolith Soft" on="GCN" country="JP" />
@@ -1597,7 +1609,7 @@
             <game name="Star Wars: The Old Republic" released="2011" by="BioWare Austin" on="Windows" country="CA" />
             <game name="Second Life" released="2003" by="Linden Lab" on="Windows" country="US" />
         </event>
-        <event track="MIS-Socken" theme="Daniel's Fav 25" type="special">
+        <event track="BIZ-GOAT" theme="Daniel's Fav 25" type="special">
             <game name="Celeste" released="2018" by="Matt Makes Games" on="Windows" country="CA" />
             <game name="Animal Well" released="2024" by="Billy Basso" on="Windows" country="US" />
             <game name="Super Mario 64" released="1996" by="Nintendo EAD" on="N64" country="JP" />
@@ -1623,6 +1635,33 @@
             <game name="Die Siedler" released="1993" by="Blue Byte" on="Amiga" country="DE" manual="Die Siedler (1993, BlueByte)" />
             <game name="Grand Theft Auto: San Andreas" released="2004" by="Rockstar North" on="Windows" country="GB" />
             <game name="Portal 2" released="2011" by="Valve Corporation" on="Windows" country="US" />
+        </event>
+        <event track="BIZ-GOAT" theme="Gregor's Fav 25" type="special">
+            <game name="Outer Wilds" released="2019" by="Mobius Digital" on="Windows" country="US" />
+            <game name="Disco Elysium" released="2019" by="ZA/UM" on="Windows" country="GB" />
+            <game name="The Witcher 3" released="2015" by="CD Projekt RED" on="Windows" country="PL" />
+            <game name="Nier: Automata" released="2017" by="PlatinumGames" on="PS4" country="JP" />
+            <game name="The Witcher" released="2007" by="CD Projekt RED" on="Windows" country="PL" />
+            <game name="Shadow of the Colossus" released="2005" by="Team Ico" on="PS2" country="JP" />
+            <game name="Minecraft" released="2011" by="Mojang Studios" on="Windows" country="SE" />
+            <game name="Prey" released="2017" by="Arkane Studios" on="Windows" country="FR" />
+            <game name="Blue Prince" released="2025" by="Dogubomb" on="Windows" country="US" />
+            <game name="Anno 1503" released="2002" by="Max Design" on="Windows" country="AT" />
+            <game name="Mass Effect 3" released="2012" by="BioWare" on="Windows" country="CA" />
+            <game name="Portal 2" released="2011" by="Valve Corporation" on="Windows" country="US" />
+            <game name="Europa Universalis IV" released="2013" by="Paradox Development Studio" on="Windows" country="SE" />
+            <game name="Vampire: The Masquerade – Bloodlines" released="2004" by="Troika Games" on="Windows" country="US" />
+            <game name="Thronebreaker: The Witcher Tales" released="2018" by="CD Projekt RED" on="Windows" country="PL" />
+            <game name="Half-Life 2" released="2004" by="Valve" on="Windows" country="US" />
+            <game name="Assassin’s Creed IV: Black Flag" released="2013" by="Ubisoft Montreal" on="Windows" country="CA" />
+            <game name="Celeste" released="2018" by="Matt Makes Games" on="Windows" country="CA" />
+            <game name="Animal Crossing: Wild World" released="2005" by="Nintendo EAD" on="NDS" country="JP" />
+            <game name="The Lord of the Rings: The Battle for Middle-earth" released="2004" by="EA Los Angeles" on="Windows" country="US" />
+            <game name="Assassin's Creed" released="2007" by="Ubisoft Montreal" on="PS3" country="CA" />
+            <game name="The Last of Us" released="2013" by="Naughty Dog" on="PS3" country="US" />
+            <game name="Elden Ring" released="2022" by="FromSoftware" on="Windows" country="JP" />
+            <game name="Mount &amp; Blade II: Bannerlord" released="2022" by="TaleWorlds Entertainment" on="Windows" country="TR" />
+            <game name="Beat Saber" released="2018" by="Hyperbolic Magnetism" on="Windows" country="CZ" />
         </event>
     </unsorted>
 </index>
