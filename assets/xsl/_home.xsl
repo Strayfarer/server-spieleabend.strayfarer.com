@@ -118,15 +118,17 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
                         </xsl:apply-templates>
                     </div>
                 </details>
-                <hr />
-                <details>
-                    <summary class="h2">
-                        Dynamische Listen
-                    </summary>
-                    <div class="flex">
-                        <xsl:apply-templates select="//ssh:events/ssh:event" />
-                    </div>
-                </details>
+                <xsl:for-each select="//ssh:events[ssh:event]">
+                    <hr />
+                    <details>
+                        <summary class="h2">
+                            Dynamische Listen
+                        </summary>
+                        <div class="flex">
+                            <xsl:apply-templates select="ssh:event" />
+                        </div>
+                    </details>
+                </xsl:for-each>
                 <hr />
                 <details class="past">
                     <summary class="h2">
