@@ -146,7 +146,8 @@ summary:hover {
 }
 
 *[data-events="fav25"] .event {
-    width: 40em;
+    width: 39em;
+    margin: 0.5em 0.25em;
 }
 
 .track-badge {
