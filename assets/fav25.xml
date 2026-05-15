@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <events xmlns="http://schema.slothsoft.net/schema/historical-games-night" version="2.0">
+    <event track="BIZ-GOAT" theme="Kadda's Fav 25" type="special">
+        <game name="Submachine: Legacy" released="2023" by="Mateusz Skutnik" on="Windows" country="PL" href="https://www.mateuszskutnik.com/submachine/sub_buy.php?id=1" />
+        <game name="Animal Well" released="2024" by="Billy Basso" on="Windows" country="US" />
+        <game name="Shadow of the Colossus" released="2005" by="Team Ico" on="PS2" country="JP" />
+        <game name="Return of the Obra Dinn" released="2018" by="Lucas Pope" on="Windows" country="US" />
+        <game name="Tearaway" released="2013" by="Media Molecule" on="PSVita" country="GB" />
+        <game name="Super Metroid" released="1994" by="Nintendo R&amp;D1" on="SNES" country="JP" />
+        <game name="Blue Prince" released="2025" by="Dogubomb" on="Windows" country="US" />
+        <game name="Celeste" released="2018" by="Matt Makes Games" on="Windows" country="CA" />
+        <game name="Journey" released="2012" by="thatgamecompany" on="PS3" country="US" />
+        <game name="Brothers: A Tale of Two Sons" released="2013" by="Starbreeze Studios" on="Windows" country="SE" />
+        <game name="Super Hexagon" released="2012" by="Terry Cavanagh" on="Flash" href="https://terrycavanaghgames.com/hexagon/" country="IE" />
+        <game name="Limbo" released="2010" by="Playdead" on="Windows" country="DK" />
+        <game name="Observer" released="2017" by="Bloober Team" on="Windows" country="PL" />
+        <game name="Abzû" released="2016" by="Giant Squid" on="Windows" country="US" />
+        <game name="Mass Effect" released="2007" by="BioWare" on="Xbox360" country="CA" />
+        <game name="Super Mario Land" released="1989" by="Nintendo R&amp;D1" on="GB" country="JP" />
+        <game name="The Messenger" released="2018" by="Sabotage Studio" on="Windows" country="CA" />
+        <game name="Donald in Maui Mallard" released="1995" by="Disney Interactive Studios" on="SNES" country="US" />
+        <game name="Astro Bot" released="2024" by="Team Asobi" on="PS5" country="JP" />
+        <game name="Elden Ring" released="2022" by="FromSoftware" on="Windows" country="JP" />
+        <game name="Tunic" released="2022" by="Isometricorp Games" on="Windows" country="CA" />
+        <game name="Gris" released="2018" by="Nomada Studio" on="Windows" country="ES" />
+        <game name="Control" released="2019" by="Remedy Entertainment" on="Windows" country="FI" />
+        <game name="Dredge" released="2023" by="Black Salt Games" on="Switch" country="NZ" />
+        <game name="The Witcher 3: Wild Hunt" released="2015" by="CD Projekt RED" on="Windows" country="PL" />
+    </event>
     <event track="BIZ-GOAT" theme="Daniel's Fav 25" type="special">
         <game name="Celeste" released="2018" by="Matt Makes Games" on="Windows" country="CA" />
         <game name="Animal Well" released="2024" by="Billy Basso" on="Windows" country="US" />
@@ -53,33 +80,6 @@
         <game name="Elden Ring" released="2022" by="FromSoftware" on="Windows" country="JP" />
         <game name="Mount &amp; Blade II: Bannerlord" released="2022" by="TaleWorlds Entertainment" on="Windows" country="TR" />
         <game name="Beat Saber" released="2018" by="Hyperbolic Magnetism" on="Windows" country="CZ" />
-    </event>
-    <event track="BIZ-GOAT" theme="Kadda's Fav 25" type="special">
-        <game name="Submachine: Legacy" released="2023" by="Mateusz Skutnik" on="Windows" country="PL" href="https://www.mateuszskutnik.com/submachine/sub_buy.php?id=1" />
-        <game name="Animal Well" released="2024" by="Billy Basso" on="Windows" country="US" />
-        <game name="Shadow of the Colossus" released="2005" by="Team Ico" on="PS2" country="JP" />
-        <game name="Return of the Obra Dinn" released="2018" by="Lucas Pope" on="Windows" country="US" />
-        <game name="Tearaway" released="2013" by="Media Molecule" on="PSVita" country="GB" />
-        <game name="Super Metroid" released="1994" by="Nintendo R&amp;D1" on="SNES" country="JP" />
-        <game name="Blue Prince" released="2025" by="Dogubomb" on="Windows" country="US" />
-        <game name="Celeste" released="2018" by="Matt Makes Games" on="Windows" country="CA" />
-        <game name="Journey" released="2012" by="thatgamecompany" on="PS3" country="US" />
-        <game name="Brothers: A Tale of Two Sons" released="2013" by="Starbreeze Studios" on="Windows" country="SE" />
-        <game name="Super Hexagon" released="2012" by="Terry Cavanagh" on="Flash" href="https://terrycavanaghgames.com/hexagon/" country="IE" />
-        <game name="Limbo" released="2010" by="Playdead" on="Windows" country="DK" />
-        <game name="Observer" released="2017" by="Bloober Team" on="Windows" country="PL" />
-        <game name="Abzû" released="2016" by="Giant Squid" on="Windows" country="US" />
-        <game name="Mass Effect" released="2007" by="BioWare" on="Xbox360" country="CA" />
-        <game name="Super Mario Land" released="1989" by="Nintendo R&amp;D1" on="GB" country="JP" />
-        <game name="The Messenger" released="2018" by="Sabotage Studio" on="Windows" country="CA" />
-        <game name="Donald in Maui Mallard" released="1995" by="Disney Interactive Studios" on="SNES" country="US" />
-        <game name="Astro Bot" released="2024" by="Team Asobi" on="PS5" country="JP" />
-        <game name="Elden Ring" released="2022" by="FromSoftware" on="Windows" country="JP" />
-        <game name="Tunic" released="2022" by="Isometricorp Games" on="Windows" country="CA" />
-        <game name="Gris" released="2018" by="Nomada Studio" on="Windows" country="ES" />
-        <game name="Control" released="2019" by="Remedy Entertainment" on="Windows" country="FI" />
-        <game name="Dredge" released="2023" by="Black Salt Games" on="Switch" country="NZ" />
-        <game name="The Witcher 3: Wild Hunt" released="2015" by="CD Projekt RED" on="Windows" country="PL" />
     </event>
     <event track="BIZ-GOAT" theme="Michael's Fav 25" type="special">
         <game name="The Legend of Zelda: Ocarina of Time" released="1998" by="Nintendo EAD" on="N64" country="JP" />
