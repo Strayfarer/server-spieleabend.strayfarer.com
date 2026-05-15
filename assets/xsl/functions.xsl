@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl" xmlns:lio="http://slothsoft.net"
-    xmlns:func="http://exslt.org/functions" xmlns:date="http://exslt.org/dates-and-times" extension-element-prefixes="func date" xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night"
-    xmlns:sfd="http://schema.slothsoft.net/farah/dictionary">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl" xmlns:lio="http://slothsoft.net" xmlns:func="http://exslt.org/functions"
+                xmlns:date="http://exslt.org/dates-and-times"
+                xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" version="1.0"
+                xmlns="http://www.w3.org/1999/xhtml"
+                extension-element-prefixes="func date">
 
     <xsl:include href="farah://slothsoft@farah/xsl/dictionary" />
 
@@ -188,7 +190,9 @@
         <span class="id">
             <xsl:choose>
                 <xsl:when test="parent::ssh:past | parent::ssh:present">
-                    <xsl:attribute name="data-wanted"><xsl:value-of select="lio:event-date()" /></xsl:attribute>
+                    <xsl:attribute name="data-wanted">
+                        <xsl:value-of select="lio:event-date()" />
+                    </xsl:attribute>
                 </xsl:when>
                 <xsl:when test="parent::ssh:future">
                     <xsl:attribute name="data-wanted">READY</xsl:attribute>
@@ -206,7 +210,9 @@
         <span class="id">
             <xsl:choose>
                 <xsl:when test="parent::ssh:past | parent::ssh:present">
-                    <xsl:attribute name="data-wanted"><xsl:value-of select="lio:event-date()" /></xsl:attribute>
+                    <xsl:attribute name="data-wanted">
+                        <xsl:value-of select="lio:event-date()" />
+                    </xsl:attribute>
                 </xsl:when>
                 <xsl:when test="parent::ssh:future">
                     <xsl:attribute name="data-wanted">READY</xsl:attribute>

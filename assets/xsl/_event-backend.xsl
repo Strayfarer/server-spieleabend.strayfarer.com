@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sfs="http://schema.slothsoft.net/farah/sitemap"
-    xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl"
-    xmlns:lio="http://slothsoft.net" xmlns:func="http://exslt.org/functions" extension-element-prefixes="func" xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night">
+<xsl:stylesheet xmlns:sfs="http://schema.slothsoft.net/farah/sitemap" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" xmlns:sfm="http://schema.slothsoft.net/farah/module"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:lio="http://slothsoft.net" xmlns:func="http://exslt.org/functions"
+                xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night" version="1.0" xmlns="http://www.w3.org/1999/xhtml" extension-element-prefixes="func">
 
     <xsl:include href="farah://strayfarer@spieleabend.strayfarer.com/xsl/functions" />
 
@@ -15,7 +15,7 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-                    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+                      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
 
                 <xsl:copy-of select="." />
             </head>
@@ -97,8 +97,8 @@
                                 <li>
                                     <xsl:if test="@wanted">
                                         <xsl:attribute name="data-wanted">
-                                        <xsl:value-of select="@wanted" />
-                                    </xsl:attribute>
+                                            <xsl:value-of select="@wanted" />
+                                        </xsl:attribute>
                                     </xsl:if>
                                     <xsl:apply-templates select="." />
                                 </li>

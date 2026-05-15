@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sfs="http://schema.slothsoft.net/farah/sitemap"
-    xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl"
-    xmlns:lio="http://slothsoft.net" xmlns:func="http://exslt.org/functions" extension-element-prefixes="func" xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night">
+<xsl:stylesheet xmlns:svg="http://www.w3.org/2000/svg" xmlns:sfs="http://schema.slothsoft.net/farah/sitemap" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:lio="http://slothsoft.net"
+                xmlns:func="http://exslt.org/functions"
+                xmlns:ssh="http://schema.slothsoft.net/schema/historical-games-night" version="1.0" xmlns="http://www.w3.org/1999/xhtml" extension-element-prefixes="func">
 
     <xsl:include href="farah://strayfarer@spieleabend.strayfarer.com/xsl/functions" />
 
@@ -21,7 +21,7 @@
 
     <xsl:template match="ssh:event">
         <main class="event {substring(@track, 1, 3)}" id="{lio:event-id()}" data-genre="{substring(@track, 1, 3)}" data-type="{@type}"
-            style="width: 100%; height: 100%; margin: 0; padding: 0.5em; box-sizing: border-box;">
+              style="width: 100%; height: 100%; margin: 0; padding: 0.5em; box-sizing: border-box;">
             <xsl:if test="@todo">
                 <xsl:attribute name="data-todo" />
             </xsl:if>
