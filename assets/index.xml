@@ -788,7 +788,7 @@
             <game name="Skatebird" released="2021" by="Glass Bottom Games" on="Windows" country="US" wanted="Ruben" />
         </event>
         <event track="RPG-West" theme="Moderne CRPGs" type="genre" gfx="DragonAge.png" date="2022-01-06" time="19:00">
-            <game name="Dragon Age: Origins" released="2009" by="BioWare" on="Windows" country="US" />
+            <game name="Dragon Age: Origins" released="2009" by="BioWare" on="Windows" country="CA" />
             <game name="Divinity: Original Sin" released="2014" by="Larian Studios" on="Windows" country="BE" wanted="MICHAEL!" />
             <game name="Pillars of Eternity" released="2015" by="Obsidian Entertainment" on="Windows" country="US" wanted="Kadda" />
         </event>
