@@ -1110,7 +1110,7 @@
             <game name="VVVVVV" released="2010" by="Terry Cavanagh" on="Flash" href="https://www.miniclip.com/games/vvvvvv/en/" country="?" />
             <game name="Hundreds" released="2010" by="Greg Wohlwend" on="Flash" href="https://www.kongregate.com/games/aeiowu/hundreds" country="?" />
             <game name="Bloons TD5" released="2011" by="Kaiparasoft" on="Flash" href="https://www.kongregate.com/games/Ninjakiwi/bloons-td-5" country="?" />
-            <game name="Super Hexagon" released="2012" by="Terry Cavanagh" on="Flash" href="https://terrycavanaghgames.com/hexagon/" country="?" />
+            <game name="Super Hexagon" released="2012" by="Terry Cavanagh" on="Flash" href="https://terrycavanaghgames.com/hexagon/" country="IE" />
             <game name="My Friend Pedro" released="2014" by="DeadToast Entertainment" on="Flash" href="https://armorgames.com/play/15980/my-friend-pedro" country="?" />
             <read href="https://www.youtube.com/watch?v=eWApBAeKqVs" name="Snake in Buffering YouTube Videos" by="hpatel99k" released="2012" />
         </event>
@@ -1598,7 +1598,6 @@
             <game name="Earthworm Jim" released="1994" by="Shiny Entertainment" on="MegaDrive" country="US" />
             <game name="Donkey Kong Country" released="1994" by="Rare" on="SNES" country="GB" />
             <game name="Kirby's Dreamland 2" released="1995" by="HAL Laboratory" on="GB" country="JP" />
-            <game name="Donald Duck in Maui Mallard" released="1996" by="Eurocom Entertainment Software" on="SNES" country="GB" />
         </event>
         <event track="MIS-Socken" theme="Historische LAN-Party" type="special">
             <game name="Ultima Online" released="1997" by="Origin Systems" on="Windows" country="US" />
