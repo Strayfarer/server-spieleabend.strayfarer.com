@@ -9,4 +9,7 @@
     <sfd:text xml:id="Friday">Fr</sfd:text>
     <sfd:text xml:id="Saturday">Sa</sfd:text>
     <sfd:text xml:id="Sunday">So</sfd:text>
+
+    <sfd:text xml:id="dynamic-list.best-games">Die besten Spiele laut Wikipedia</sfd:text>
+    <sfd:text xml:id="dynamic-list.fav25">Unsere Top 25</sfd:text>
 </sfd:dictionary>

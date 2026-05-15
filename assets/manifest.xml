@@ -6,7 +6,7 @@
 
     <fragment name="index-dynamic">
         <use-document name="best-games" ref="/api/games?url=https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best" />
-        <use-document ref="/fav25" />
+        <use-document name="fav25" ref="/fav25" />
     </fragment>
 
     <resource-directory name="css" type="text/css" />

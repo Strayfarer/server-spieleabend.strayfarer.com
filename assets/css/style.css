@@ -141,6 +141,10 @@ details {
     position: relative;
 }
 
+*[data-events="fav25"] .event {
+    width: 40em;
+}
+
 .track-badge {
     position: absolute;
     top: 0;

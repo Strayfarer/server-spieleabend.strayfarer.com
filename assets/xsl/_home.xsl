@@ -120,9 +120,9 @@ Zukünftigen Termine: https://calendar.google.com/calendar?cid=aGhrc3FxNDFsamlqY
                 </details>
                 <xsl:for-each select="//ssh:events[ssh:event]">
                     <hr />
-                    <details>
-                        <summary class="h2">
-                            Dynamische Listen
+                    <details data-events="{../@name}">
+                        <summary class="h2" sfd:dict="">
+                            <xsl:value-of select="concat('dynamic-list.', ../@name)" />
                         </summary>
                         <div class="flex">
                             <xsl:apply-templates select="ssh:event" />
