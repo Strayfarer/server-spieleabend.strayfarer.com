@@ -81,4 +81,31 @@
         <game name="Dredge" released="2023" by="Black Salt Games" on="Switch" country="NZ" />
         <game name="The Witcher 3: Wild Hunt" released="2015" by="CD Projekt RED" on="Windows" country="PL" />
     </event>
+    <event track="BIZ-GOAT" theme="Michael's Fav 25" type="special">
+        <game name="The Legend of Zelda: Ocarina of Time" released="1998" by="Nintendo EAD" on="N64" country="JP" />
+        <game name="Chrono Trigger" released="1995" by="Square" on="SNES" country="JP" />
+        <game name="The Legend of Zelda: Breath of the Wild" released="2017" by="Nintendo EPD" on="Switch" country="JP" />
+        <game name="The Witcher 3: Wild Hunt" released="2015" by="CD Projekt RED" on="Windows" country="PL" />
+        <game name="The Legend of Zelda: Twilight Princess" released="2006" by="Nintendo EAD" on="Wii" country="JP" />
+        <game name="Rayman Legends" released="2013" by="Ubisoft Montpellier" on="Windows" country="FR" />
+        <game name="Dragon Age: Origins" released="2009" by="BioWare" on="Windows" country="US" />
+        <game name="Rocket League" released="2015" by="Psyonix" on="Windows" country="US" />
+        <game name="Brothers: A Tale of Two Sons" released="2013" by="Starbreeze Studios" on="Windows" country="SE" />
+        <game name="Sleeping Dogs" released="2012" by="United Front Games" on="Windows" country="CA" />
+        <game name="Nier: Automata" released="2017" by="PlatinumGames" on="PS4" country="JP" />
+        <game name="Super Stardust HD" released="2007" by="Housemarque" on="PS3" country="FI" />
+        <game name="The Elder Scrolls IV: Oblivion" released="2006" by="Bethesda Softworks" on="Windows" country="US" />
+        <game name="Pokémon Kristall-Edition" released="2000" by="Game Freak" on="GBC" country="JP" />
+        <game name="Portal 2" released="2011" by="Valve Corporation" on="Windows" country="US" />
+        <game name="Super Hexagon" released="2012" by="Terry Cavanagh" on="Flash" href="https://terrycavanaghgames.com/hexagon/" country="IE" />
+        <game name="Uncharted 4: A Thief's End" released="2016" by="Naughty Dog" on="PS4" country="US" />
+        <game name="Hollow Knight" released="2017" by="Team Cherry" on="Windows" country="AU" />
+        <game name="God of War II" released="2007" by="Santa Monica Studio" on="PS2" country="US" />
+        <game name="Overwatch" released="2016" by="Blizzard Entertainment" on="Windows" country="US" />
+        <game name="Half-Life 2" released="2004" by="Valve" on="Windows" country="US" />
+        <game name="Yakuza 0" released="2018" by="Ryu Ga Gotoku Studio" on="Windows" country="JP" />
+        <game name="Red Dead Redemption 2" released="2018" by="Rockstar Games" on="Windows" country="US" />
+        <game name="Stronghold: Crusader" released="2002" by="Firefly Studios" on="Windows" country="GB" />
+        <game name="Batman: Arkham Asylum" released="2009" by="Rocksteady Studios" on="Windows" country="GB" />
+    </event>
 </events>
