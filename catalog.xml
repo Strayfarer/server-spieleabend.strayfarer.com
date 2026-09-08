@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
   <uri name="farah://strayfarer@spieleabend.strayfarer.com/dictionary/de-de" uri="assets/dictionary/de-de.xml"/>
+  <uri name="farah://strayfarer@spieleabend.strayfarer.com/fav25" uri="assets/fav25.xml"/>
   <uri name="farah://strayfarer@spieleabend.strayfarer.com/index" uri="assets/index.xml"/>
   <uri name="farah://strayfarer@spieleabend.strayfarer.com/manifest" uri="assets/manifest.xml"/>
   <uri name="farah://strayfarer@spieleabend.strayfarer.com/sitemap/template" uri="assets/sitemap/template.xsl"/>
@@ -12,4 +13,28 @@
   <uri name="farah://strayfarer@spieleabend.strayfarer.com/xsl/_games" uri="assets/xsl/_games.xsl"/>
   <uri name="farah://strayfarer@spieleabend.strayfarer.com/xsl/_home" uri="assets/xsl/_home.xsl"/>
   <uri name="farah://strayfarer@spieleabend.strayfarer.com/xsl/functions" uri="assets/xsl/functions.xsl"/>
+  <uri name="http://schema.slothsoft.net/farah/dictionary" uri="vendor/slothsoft/farah/assets/schema/dictionary/1.0.xsd"/>
+  <uri name="http://schema.slothsoft.net/farah/module" uri="vendor/slothsoft/farah/assets/schema/module/1.1.xsd"/>
+  <uri name="http://schema.slothsoft.net/farah/sitemap" uri="vendor/slothsoft/farah/assets/schema/sitemap/1.1.xsd"/>
+  <uri name="http://schema.slothsoft.net/schema/computers" uri="vendor/slothsoft/schema/assets/schema/computers/1.0.xsd"/>
+  <uri name="http://schema.slothsoft.net/schema/historical-games-night" uri="vendor/slothsoft/schema/assets/schema/historical-games-night/2.0.xsd"/>
+  <uri name="http://schema.slothsoft.net/schema/presskit" uri="vendor/slothsoft/schema/assets/schema/presskit/1.1.xsd"/>
+  <uri name="http://schema.slothsoft.net/schema/versioning" uri="vendor/slothsoft/schema/assets/schema/versioning/1.0.xsd"/>
+  <uri name="http://symfony.com/schema/dic/services" uri="vendor/symfony/dependency-injection/Loader/schema/dic/services/services-1.0.xsd"/>
+  <uri name="http://www.w3.org/XML/1998/namespace" uri="vendor/slothsoft/farah/assets/schema/xml/1.0.xsd"/>
+  <uri name="https://phar.io/xml/manifest/1.0" uri="vendor/phar-io/manifest/manifest.xsd"/>
+  <system systemId="farah://slothsoft@farah/schema/dictionary/0.1" uri="vendor/slothsoft/farah/assets/schema/dictionary/0.1.xsd"/>
+  <system systemId="farah://slothsoft@farah/schema/dictionary/1.0" uri="vendor/slothsoft/farah/assets/schema/dictionary/1.0.xsd"/>
+  <system systemId="farah://slothsoft@farah/schema/module/1.0" uri="vendor/slothsoft/farah/assets/schema/module/1.0.xsd"/>
+  <system systemId="farah://slothsoft@farah/schema/module/1.1" uri="vendor/slothsoft/farah/assets/schema/module/1.1.xsd"/>
+  <system systemId="farah://slothsoft@farah/schema/sitemap/1.0" uri="vendor/slothsoft/farah/assets/schema/sitemap/1.0.xsd"/>
+  <system systemId="farah://slothsoft@farah/schema/sitemap/1.1" uri="vendor/slothsoft/farah/assets/schema/sitemap/1.1.xsd"/>
+  <system systemId="farah://slothsoft@farah/schema/xml/1.0" uri="vendor/slothsoft/farah/assets/schema/xml/1.0.xsd"/>
+  <system systemId="farah://slothsoft@schema/schema/computers/1.0" uri="vendor/slothsoft/schema/assets/schema/computers/1.0.xsd"/>
+  <system systemId="farah://slothsoft@schema/schema/historical-games-night/1.0" uri="vendor/slothsoft/schema/assets/schema/historical-games-night/1.0.xsd"/>
+  <system systemId="farah://slothsoft@schema/schema/historical-games-night/2.0" uri="vendor/slothsoft/schema/assets/schema/historical-games-night/2.0.xsd"/>
+  <system systemId="farah://slothsoft@schema/schema/junit/1.0" uri="vendor/slothsoft/schema/assets/schema/junit/1.0.xsd"/>
+  <system systemId="farah://slothsoft@schema/schema/presskit/1.0" uri="vendor/slothsoft/schema/assets/schema/presskit/1.0.xsd"/>
+  <system systemId="farah://slothsoft@schema/schema/presskit/1.1" uri="vendor/slothsoft/schema/assets/schema/presskit/1.1.xsd"/>
+  <system systemId="farah://slothsoft@schema/schema/versioning/1.0" uri="vendor/slothsoft/schema/assets/schema/versioning/1.0.xsd"/>
 </catalog>
